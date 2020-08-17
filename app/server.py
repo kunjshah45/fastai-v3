@@ -10,9 +10,9 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://doc-0g-as-docs.googleusercontent.com/docs/securesc/0vm5o6l3n2ahpaqadlvqkdphllbe7bmn/uua9rmv6594okmafe4cf4k65118vmsid/1597681875000/03314731628365166454/03314731628365166454/1IsjfS9rwjN1C0KgBaJwUqWE0VYECKL0A?e=download&authuser=0&nonce=1esq97iga9j6m&user=03314731628365166454&hash=be1g7m2nkn3mp8f30k97ouate3qfrgij'
-export_file_name = 'export.pkl'
+export_file_name = 'phase1.pth'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['garbage', 'pothole', 'sewage']
 path = Path(__file__).parent
 
 app = Starlette()
